@@ -2,8 +2,8 @@ from revChatGPT.V1 import Chatbot
 from flask import Flask, render_template
 
 chatbot = Chatbot(config={
-  "email": "markiangonmark@gmail.com",
-  "password": "ma1221amrk3443kr"
+  "email": "your password",
+  "password": "your password"
 })
 
 prompt = 2+4
