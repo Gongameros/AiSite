@@ -1,0 +1,108 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Medula One', "Montserrat";    
+    /* background-color:#3E3E3E; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+.main_boxes{
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+}
+.site-name{
+    margin-left: 50px;
+    margin-top: 0px;
+    width: 196px;
+    height: 129px;
+    left: 58px;
+    top: 0px;
+    font-family: 'Medula One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 129px;
+    color: #FFFFFF;
+}
+.box_request{
+    position: absolute;
+    top: 0%;
+    margin-top: 50px;
+    left: 50%;
+    width: 500px;
+    padding-right: 300px;
+    transform: translate(-50%,-50%);
+}
+input{
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.submit_button{
+    position: absolute;
+    top: 50%;
+    margin-left: 69.5%;
+    left: 50%;
+    width: 500px;
+    transform: translate(-50%,-50%);
+}
+input[type="text"]
+{
+    background: #FFFFFF;
+    width: 700px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 25px 25px 25px;
+}
+input[type="submit"]
+{
+    padding-left: 0%;
+    padding: 0 25px;
+    background: #999999;
+    position: relative;
+    height: 50px;
+    border-radius: 25px 25px 25px 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.box_output{
+    position: absolute;
+    top: 0%;
+    margin-top: 100px;
+    margin-left: -400px;
+    left: 50%;
+    height: 300px;
+    width: 750px;
+
+    border-radius: 25px 25px 25px 25px;
+    padding: 0 25px;
+    background-color: #999999;
+}
+h3{
+    font-size: 25px;
+}
+.gpt_answer{
+    font-family: 'Monsterrat';
+}
+.line-2{
+    position: absolute;
+    margin-bottom: 50%;
+    width: 1640px;
+    height: 0px;
+    left: 464px;
+    top: 600px;
+    opacity: 0.2;
+    border: 50px solid #999999;
+    transform: rotate(-45deg);
+}

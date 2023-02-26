@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="styles/ArtistAIdes.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='ArtistAIdes.css')}}"> -->
+    <link rel="stylesheet" href="/static/ArtistAIdes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Medula+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Medula+One&display=swap" rel="stylesheet">
+    
+    <title>AISITE</title>
+</head>
+<body style="background-image: url(/static/img/fon.png);">
+    <div>
+        <div class = "Name">
+            <h1 class="site-name">AISITE</h1>
+        </div>
+
+        </div>
+        <div class="main_boxes">
+            <div class="box_request">
+                <form method="POST", class = "ask_area">
+                    <input type="text" id="question" name="input_var" placeholder="Type...">
+                    <div class="submit_button">
+                        <input type="submit" name="" value="Search">
+                    </div>
+                    <script>
+                    </script>
+                </form>
+            </div>
+            <div class="box_output">
+                <form class="output_area">
+                    <div class="boxed">
+                        <h3 class="gpt_answer">{{ gpt_output }}</h3> 
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="/static/index.js">
+    </script>
+</body>
+</html>
